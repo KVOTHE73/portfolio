@@ -16,7 +16,7 @@
         <li class="icon-box" role="presentation">
           <button class="active" data-bs-toggle="tab" data-bs-target="#home">
             <i class="fa fa-home"></i>
-            <h2>Home</h2>
+            <h2>Inicio</h2>
           </button>
         </li>
         <!-- End icon-box -->
@@ -24,7 +24,7 @@
         <li class="icon-box" role="presentation">
           <button data-bs-toggle="tab" data-bs-target="#about">
             <i class="fa fa-user"></i>
-            <h2>About</h2>
+            <h2>Info</h2>
           </button>
         </li>
         <!-- End icon-box -->
@@ -40,7 +40,7 @@
         <li class="icon-box" role="presentation">
           <button data-bs-toggle="tab" data-bs-target="#contact">
             <i class="fa fa-envelope-open"></i>
-            <h2>Contact</h2>
+            <h2>Contacto</h2>
           </button>
         </li>
         <!-- End icon-box -->
@@ -69,8 +69,8 @@
       <div class="tab-pane fade about" id="about">
         <div>
           <div class="title-section text-left text-sm-center">
-            <h1>ABOUT <span>ME</span></h1>
-            <span class="title-bg">Resume</span>
+            <h1>SOBRE <span>MÍ</span></h1>
+            <span class="title-bg">Información</span>
           </div>
           <!-- {/* End title */} -->
           <IndexMain />
@@ -84,8 +84,8 @@
           data-aos="fade-up"
           data-aos-duration="1200"
         >
-          <h1>my <span>portfolio</span></h1>
-          <span class="title-bg">works</span>
+          <h1>proyectos</h1>
+          <span class="title-bg">portfolio</span>
         </div>
         <!-- {/* End title */} -->
         <PortfolioInfo />
@@ -94,20 +94,19 @@
 
       <div class="tab-pane fade contact" id="contact">
         <div class="title-section text-left text-sm-center">
-          <h1>get in <span>touch</span></h1>
-          <span class="title-bg">contact</span>
+          <h1>envíame un <span>mensaje</span></h1>
+          <span class="title-bg">contacto</span>
         </div>
         <div class="container">
           <div class="row">
             <!-- {/* Left Side Starts */} -->
             <div class="col-12 col-lg-4">
               <h3 class="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
-                Don't be shy !
+                Contacta conmigo !
               </h3>
               <p class="open-sans-font mb-4">
-                Feel free to get in touch with me. I am always open to
-                discussing new projects, creative ideas or opportunities to be
-                part of your visions.
+                Puedes encontrarme a través de los siguientes medios. Siempre estoy abierto
+                a discutir sobre nuevos proyectos, ideas u oportunidades.
               </p>
               <AddressInfo />
               <!-- {/* End Address */} -->
@@ -130,7 +129,7 @@
 
       <div class="tab-pane fade blog" id="blog">
         <div class="title-section text-left text-sm-center">
-          <h1>my <span>blog</span></h1>
+          <h1>mi <span>blog</span></h1>
           <span class="title-bg">posts</span>
         </div>
         <div class="container">

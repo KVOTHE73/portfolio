@@ -84,8 +84,8 @@
           data-aos="fade-up"
           data-aos-duration="1200"
         >
-          <h1>mi <span>portfolio</span></h1>
-          <span class="title-bg">proyectos</span>
+          <h1>proyectos</h1>
+          <span class="title-bg">portfolio</span>
         </div>
         <!-- {/* End title */} -->
         <PortfolioInfo />
