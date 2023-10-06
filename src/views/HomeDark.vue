@@ -1,9 +1,10 @@
 <template>
   <main class="yellow">
-    <div className="demo-sticker" title="Swich Light">
-      <a href="/home-light">
-        <i className="fa fa-lightbulb-o" aria-hidden="true"></i>
-      </a>
+    <div className="demo-sticker" title="Fondo Blanco">
+      <a
+        ><router-link :to="{ name: 'HomeLight' }" rel="noreferrer">
+          <i className="fa fa-lightbulb-o" aria-hidden="true"></i></router-link
+      ></a>      
     </div>
     <!-- End Sticker -->
 
@@ -134,9 +135,9 @@
         </div>
         <div class="container">
           <!-- {/* Articles Starts */} -->
-          <div class="row pb-50">
+          <!-- <div class="row pb-50">
             <BlogInfo />
-          </div>
+          </div> -->
           <!-- {/* Articles Ends */} -->
         </div>
       </div>
@@ -151,21 +152,32 @@ import IndexMain from "@/components/about/IndexMain.vue";
 import AddressInfo from "@/components/AddressInfo.vue";
 import ContactInfo from "@/components/ContactInfo.vue";
 import SocialInfo from "@/components/SocialInfo.vue";
-import BlogInfo from "@/components/blog/BlogInfo.vue";
+//import BlogInfo from "@/components/blog/BlogInfo.vue";
 import PortfolioInfo from "@/components/portfolio/PortfolioInfo.vue";
 
 export default {
+  name: "HomeDark",
+  meta: {
+      title: "Nacho Rodríguez || Portfolio",
+    },
   components: {
     HeroBanner,
     IndexMain,
     AddressInfo,
     ContactInfo,
     SocialInfo,
-    BlogInfo,
+    //BlogInfo,
     PortfolioInfo,
   },
   data() {
     return {};
   },
+  mounted() {
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");
+  },
+  unmounted() {
+    document.body.classList.remove("light");
+  },  
 };
 </script>

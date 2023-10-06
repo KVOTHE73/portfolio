@@ -6,10 +6,10 @@
     >
       <div class="content">
         <h1>404!</h1>
-        <p>The page you are looking for could not be found.</p>
+        <p>La página que estás buscando no existe o no puede ser encontrada.</p>
 
         <div class="button">
-          <router-link to="/">BACK TO HOME</router-link>
+          <router-link to="/">REGRESA AL INICIO</router-link>
         </div>
         <!-- {/* End purchase_button */} -->
       </div>
@@ -20,6 +20,10 @@
 
 <script>
 export default {
+  name: "PageNotFound",
+  meta: {
+      title: "Nacho Rodríguez || Portfolio",
+    },
   setup() {
     return {
       image404: require(`@/assets/images/404.jpg`),

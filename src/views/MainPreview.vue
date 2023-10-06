@@ -1,9 +1,9 @@
 <template>
   <div>
-    <section class="banner text-center">
+    <section class="text-center footer_copyright">
       <div class="content">
-        <h1>Tunis</h1>
-        <h2>Personal Portfolio VueJS 3 Template</h2>
+        <h1>Nacho Rodríguez</h1>
+        <h2>Portfolio personal</h2>
       </div>
     </section>
     <!-- {/* End .banner */} -->
@@ -23,7 +23,6 @@
               <div class="bg_container">
                 <router-link
                   :to="preview.routerPath"
-                  target="_blank"
                   rel="noreferrer"
                 >
                   <img
@@ -39,10 +38,9 @@
                   <router-link
                     class="btn"
                     :to="preview.routerPath"
-                    target="_blank"
                     rel="noreferrer"
                   >
-                    view demo
+                    Elegir
                   </router-link>
                 </h6>
               </div>
@@ -53,42 +51,18 @@
     </section>
     <!-- {/* End .Demo */} -->
 
-    <footer>
-      <div class="go_purchase">
-        <h6 data-aos="fade-up" data-aos-duration="1200">
-          You are at the right step now
-        </h6>
-        <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
-          Purchase Tunis & Build Your Faster
-          <span class="theme-color">VueJS 3</span> &amp;
-          <span class="theme-color">Bootstrap 5 </span> Based Portfolio
-          Template.
-        </h3>
-        <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-          <a
-            class="button"
-            href="https://themeforest.net/user/ib-themes/portfolio"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span class="button-text"> Purchase Now</span>
-            <span class="button-icon fa fa-arrow-right"></span>
-          </a>
-        </div>
-      </div>
-      <!-- {/* End go_purchase */} -->
-
+    <footer>      
       <div class="text-center footer_copyright">
-        <h6>Tunis - Personal Portfolio VueJS 3 Template</h6>
+        <h6>Este portfolio está desarrollado utilizando HTML, CSS, SASS, JavaScript y Vue3.js</h6>
         <h5>
-          &copy; {{ new Date().getFullYear() }} Designed with
-          <span class="heart">&#10084;</span> by
+          &copy; {{ new Date().getFullYear() }} Diseñado con
+          <span class="heart">&#10084;</span> por
           <a
-            href="https://themeforest.net/user/ib-themes"
+            href="https://nacho-rodriguez.com"
             target="_blank"
             rel="noreferrer"
           >
-            ib-themes.
+            nacho rodríguez.
           </a>
         </h5>
       </div>
@@ -99,20 +73,24 @@
 
 <script>
 export default {
+  name: "MainPreview",
+  meta: {
+      title: "Nacho Rodríguez || Portfolio",
+    },
   setup() {
     return {
       previewDemo: [
         {
           id: 1,
           img: require(`@/assets/images/intro/dark.jpg`),
-          title: "Dark Demo Portfolio",
+          title: "Portfolio fondo oscuro",
           routerPath: "/home-dark",
           delayAnimation: "0",
         },
         {
           id: 2,
           img: require(`@/assets/images/intro/light.jpg`),
-          title: "Light Demo Portfolio",
+          title: "Portfolio fondo claro",
           routerPath: "/home-light",
           delayAnimation: "50",
         },

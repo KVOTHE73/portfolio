@@ -1,9 +1,10 @@
 <template>
   <main class="yellow">
-    <div className="demo-sticker" title="Swich Dark">
-      <a href="/">
-        <i className="fa fa-moon-o" aria-hidden="true"></i>
-      </a>
+    <div className="demo-sticker" title="Fondo Oscuro">
+      <a
+        ><router-link :to="{ name: 'HomeDark' }" rel="noreferrer">
+          <i className="fa fa-moon-o" aria-hidden="true"></i></router-link
+      ></a>
     </div>
     <!-- End switcher -->
 
@@ -105,8 +106,9 @@
                 Contacta conmigo !
               </h3>
               <p class="open-sans-font mb-4">
-                Puedes encontrarme a través de los siguientes medios. Siempre estoy abierto
-                a discutir sobre nuevos proyectos, ideas u oportunidades.
+                Puedes encontrarme a través de los siguientes medios. Siempre
+                estoy abierto a discutir sobre nuevos proyectos, ideas u
+                oportunidades.
               </p>
               <AddressInfo />
               <!-- {/* End Address */} -->
@@ -134,9 +136,9 @@
         </div>
         <div class="container">
           <!-- {/* Articles Starts */} -->
-          <div class="row pb-50">
+          <!-- <div class="row pb-50">
             <BlogInfo />
-          </div>
+          </div> -->
           <!-- {/* Articles Ends */} -->
         </div>
       </div>
@@ -151,17 +153,21 @@ import IndexMain from "@/components/about/IndexMain.vue";
 import AddressInfo from "@/components/AddressInfo.vue";
 import ContactInfo from "@/components/ContactInfo.vue";
 import SocialInfo from "@/components/SocialInfo.vue";
-import BlogInfo from "@/components/blog/BlogInfo.vue";
+//import BlogInfo from "@/components/blog/BlogInfo.vue";
 import PortfolioInfo from "@/components/portfolio/PortfolioInfo.vue";
 
 export default {
+  name: "HomeLight",
+  meta: {
+      title: "Nacho Rodríguez || Portfolio",
+    },
   components: {
     HeroBanner,
     IndexMain,
     AddressInfo,
     ContactInfo,
     SocialInfo,
-    BlogInfo,
+    //BlogInfo,
     PortfolioInfo,
   },
   data() {

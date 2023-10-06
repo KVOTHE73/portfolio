@@ -16,7 +16,7 @@ body {
 }
 .banner .content {
   background-color: #42b883;
-  padding: 50px 15px 30px;
+  padding: 40px 15px 30px;
   width: 100%;
   h2 {
     text-transform: capitalize;
@@ -70,7 +70,7 @@ body {
   background-color: #42b883 !important;
 }
 .demo {
-  padding: 175px 0 135px;
+  padding: 7.15% 0 7.15%;
   min-height: 560px;
   background: #ffffff;
   @media screen and (max-width: 768px) {
@@ -92,11 +92,7 @@ h2 {
 }
 .heading {
   font-size: 30px;
-  margin-bottom: 80px;
   font-weight: 700;
-}
-.anchor {
-  margin-bottom: 40px;
 }
 .footer_copyright {
   background-color: #222222;
@@ -144,46 +140,6 @@ h2 {
 
 .bg_container img {
   border-radius: 5px;
-}
-
-.go_purchase {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  background-color: #389f71;
-  padding: 120px 20px;
-  text-align: center;
-  @media screen and (max-width: 768px) {
-    padding: 100px 20px 100px;
-  }
-  h6 {
-    color: #efefef;
-    margin-bottom: 10px;
-  }
-  h3 {
-    color: #fff;
-    max-width: 600px;
-    font-weight: 600;
-    margin: 0 auto;
-    font-size: 35px;
-    display: block;
-    padding: 10px 0 30px;
-    letter-spacing: 1px;
-    line-height: 45px;
-    text-transform: none;
-    @media (max-width: 768px) {
-      font-size: 28px;
-      line-height: 42px;
-    }
-
-    .theme-color {
-      color: var(--main-primary-color);
-    }
-  }
-  .button {
-    border: 1px solid var(--main-primary-color);
-  }
 }
 footer {
   display: flex;
