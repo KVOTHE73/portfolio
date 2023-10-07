@@ -52,6 +52,7 @@
   import SocialInfo from "@/components/SocialInfo.vue";
   
   export default {
+    name: "ContactForm",
     components: {
       AddressInfo,
       ContactInfo,

@@ -28,7 +28,7 @@
             <!-- {/* End personal info */} -->
 
             <div class="col-12 mt-1">
-              <a class="button" href="https://drive.google.com/file/d/1iQdOg4cOV2cNDv1H46wOzLVE2FtahAz2/view?usp=sharing" target="_blank" download>
+              <a class="button" href="https://drive.google.com/file/d/1-Eh9VZP_gYMOOH05MiG3Cua69D3-fx6Z/view?usp=sharing" target="_blank" download>
                 <span class="button-text">Descargar CV</span>
                 <span class="button-icon fa fa-download"></span>
               </a>

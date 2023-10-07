@@ -3,9 +3,22 @@
     <li v-for="personalInfo in personalInfoContent" :key="personalInfo.id">
       <span class="title">{{ personalInfo.meta }}: </span>
       <span
+        v-if="!personalInfo.href"
         class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block"
       >
         {{ personalInfo.metaInfo }}
+      </span>
+      <span
+        v-if="personalInfo.href"
+        class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block"
+      >
+        <a
+          :href="personalInfo.href"
+          style="text-decoration: underline; color: white;"
+          target="_blank"
+          rel="noreferrer"
+          >{{ personalInfo.metaInfo }}</a
+        >
       </span>
     </li>
   </ul>
@@ -23,8 +36,13 @@ export default {
         { id: 5, meta: "Freelance", metaInfo: "Disponible" },
         { id: 6, meta: "Dirección", metaInfo: "Vigo (PO), España" },
         { id: 7, meta: "Teléfono", metaInfo: "+34 678-40-34-87" },
-        { id: 8, meta: "Email", metaInfo: "info@nacho-rodriguez.com" },
-        { id: 9, meta: "Linkedin", metaInfo: "Nacho Rodríguez" },
+        { id: 8, meta: "Email", metaInfo: "info@nacho-rodriguez.com", href:"mailto:steve@mail.com" },
+        {
+          id: 9,
+          meta: "Linkedin",
+          metaInfo: "Nacho Rodríguez",
+          href: "https://www.linkedin.com/in/nacho-rodriguez-cuervo-desarrollo-web",
+        },
         { id: 10, meta: "Idiomas", metaInfo: "Español, Gallego, Inglés" },
       ],
     };

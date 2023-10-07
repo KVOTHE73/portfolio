@@ -30,8 +30,17 @@ const routes = [
   {
     path: "/contact",
     component: () => import("@/components/portfolio/ContactForm.vue"),
+    name: "ContactForm",
     meta: {
       title: "Nacho Rodríguez || Portfolio",
+    },
+  },
+  // header para linkeding y el cv en pdf
+  {
+    path: "/linkedin",
+    component: () => import("../views/Fondo_linkedin.vue"),
+    meta: {
+      title: "Nacho Rodríguez || Portfolio",    
     },
   },
   {

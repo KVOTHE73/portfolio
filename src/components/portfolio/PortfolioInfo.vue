@@ -12,7 +12,9 @@
             >
               <img :src="item.img" alt="Portolio" />
               <div class="hover-content-wrapper">
-                <span class="content-title"><img :src="item.logo" alt="logo image" /></span>
+                <span class="content-title"
+                  ><img :src="item.logo" alt="logo image"
+                /></span>
               </div>
             </figure>
           </li>
@@ -50,7 +52,11 @@
                         <div class="row open-sans-font">
                           <div class="col-12 mb-2">
                             <i class="fa fa-file-text-o pr-2"></i>
-                            <span style="text-decoration:underline;" class="project-label">Proyecto</span>:
+                            <span
+                              style="text-decoration: underline"
+                              class="project-label"
+                              >Proyecto</span
+                            >:
                             <span class="ft-wt-600 uppercase">
                               {{ portfolio.project }}</span
                             >
@@ -59,7 +65,11 @@
 
                           <div class="col-12 mb-2">
                             <i class="fa fa-user-o pr-2"></i>
-                            <span style="text-decoration:underline;" class="project-label">Cliente</span>:
+                            <span
+                              style="text-decoration: underline"
+                              class="project-label"
+                              >Cliente</span
+                            >:
                             <span class="ft-wt-600 uppercase">{{
                               portfolio.client
                             }}</span>
@@ -68,7 +78,11 @@
 
                           <div class="col-12 col-sm-6 mb-2">
                             <i class="fa fa-external-link pr-2"></i>
-                            <span style="text-decoration:underline;" class="project-label">Demo</span>:
+                            <span
+                              style="text-decoration: underline"
+                              class="project-label"
+                              >Demo</span
+                            >:
                             <span class="ft-wt-600 uppercase">
                               <a
                                 :href="portfolio.previewLink"
@@ -78,32 +92,39 @@
                                 {{ portfolio.preview }}
                               </a>
                             </span>
-                          </div>                          
+                          </div>
                           <!-- {/* End .col */} -->
 
                           <div class="col-12 col-sm-6 mb-2">
                             <i class="fa fa-code pr-2"></i>
-                            <span style="text-decoration:underline;" class="project-label">Tecnologías</span>:
+                            <span
+                              style="text-decoration: underline"
+                              class="project-label"
+                              >Tecnologías</span
+                            >:
                             <span class="ft-wt-600 uppercase">{{
                               portfolio.language
                             }}</span>
                           </div>
                           <!-- {/* End .col */} -->
-                          
+
                           <div class="col-12 mb-2">
                             <i class="fa fa-sign-in pr-2"></i>
-                            <span style="text-decoration:underline;" class="project-label">Acceso</span>:
+                            <span
+                              style="text-decoration: underline"
+                              class="project-label"
+                              >Acceso</span
+                            >:
                             <span class="ft-wt-600 uppercase">{{
                               portfolio.credentials
                             }}</span>
                             <span class="ft-wt-600 uppercase">
-                              <a
-                                href="/contact"
-                                target="_blank"
+                              <router-link
+                                :to="{ name: 'ContactForm' }"
                                 rel="noreferrer"
+                                target="_blank"
+                                >{{ portfolio.access }}</router-link
                               >
-                                {{ portfolio.access }}
-                              </a>
                             </span>
                             <span class="ft-wt-600 uppercase">{{
                               portfolio.credentials2
