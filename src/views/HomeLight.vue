@@ -1,6 +1,25 @@
 <template>
   <main class="yellow">
-    <div className="demo-sticker" title="Fondo Oscuro">
+    <!-- Languages -->
+    <div className="demo-sticker" :title="spLanguage" style="cursor: pointer">
+      <img
+        @click="toSpanish()"
+        src="@/assets/images/flags/es.svg"
+        height="15"
+      />
+    </div>
+    <div
+      className="demo-sticker"
+      style="margin-top: 4rem; cursor: pointer"
+      :title="enLanguage"
+    >
+      <img
+        @click="toEnglish()"
+        src="@/assets/images/flags/en.svg"
+        height="15"
+      />
+    </div>
+    <div className="demo-sticker" style="margin-top: 8rem" title="Modo oscuro">
       <a
         ><router-link :to="{ name: 'HomeDark' }" rel="noreferrer">
           <i className="fa fa-moon-o" aria-hidden="true"></i></router-link
@@ -17,7 +36,8 @@
         <li class="icon-box" role="presentation">
           <button class="active" data-bs-toggle="tab" data-bs-target="#home">
             <i class="fa fa-home"></i>
-            <h2>Inicio</h2>
+            <h2 v-if="es">Inicio</h2>
+            <h2 v-if="en">Home</h2>
           </button>
         </li>
         <!-- End icon-box -->
@@ -41,7 +61,8 @@
         <li class="icon-box" role="presentation">
           <button data-bs-toggle="tab" data-bs-target="#contact">
             <i class="fa fa-envelope-open"></i>
-            <h2>Contacto</h2>
+            <h2 v-if="es">Contacto</h2>
+            <h2 v-if="en">Contact</h2>
           </button>
         </li>
         <!-- End icon-box -->
@@ -62,7 +83,11 @@
       <div class="tab-pane home fade show active" id="home">
         <div class="container-fluid main-container container-home p-0">
           <div class="color-block d-none d-lg-block"></div>
-          <HeroBanner />
+          <HeroBanner
+            :spanish="spanish"
+            :english="english"
+            :key="languageKey"
+          />
         </div>
       </div>
       <!-- End Hero content tabs -->
@@ -70,11 +95,13 @@
       <div class="tab-pane fade about" id="about">
         <div>
           <div class="title-section text-left text-sm-center">
-            <h1>SOBRE <span>MÍ</span></h1>
-            <span class="title-bg">Información</span>
+            <h1 v-if="es">SOBRE <span>MÍ</span></h1>
+            <h1 v-if="en">ABOUT <span>ME</span></h1>
+            <span v-if="es" class="title-bg">Información</span>
+            <span v-if="en" class="title-bg">Information</span>
           </div>
           <!-- {/* End title */} -->
-          <IndexMain />
+          <IndexMain :spanish="spanish" :english="english" :key="languageKey" />
         </div>
       </div>
       <!-- End about content tabs -->
@@ -85,42 +112,55 @@
           data-aos="fade-up"
           data-aos-duration="1200"
         >
-          <h1>proyectos</h1>
+          <h1 v-if="es">proyectos</h1>
+          <h1 v-if="en">proyects</h1>
           <span class="title-bg">portfolio</span>
         </div>
         <!-- {/* End title */} -->
-        <PortfolioInfo />
+        <PortfolioInfo
+          :spanish="spanish"
+          :english="english"
+          :key="languageKey"
+        />
       </div>
       <!-- End portfolio content tabs -->
 
       <div class="tab-pane fade contact" id="contact">
         <div class="title-section text-left text-sm-center">
-          <h1>envíame un <span>mensaje</span></h1>
-          <span class="title-bg">contacto</span>
+          <h1 v-if="es">envíame un <span>mensaje</span></h1>
+          <span v-if="es" class="title-bg">contacto</span>
+          <h1 v-if="en">send me a <span>message</span></h1>
+          <span v-if="en" class="title-bg">contact</span>
         </div>
         <div class="container">
           <div class="row">
             <!-- {/* Left Side Starts */} -->
             <div class="col-12 col-lg-4">
-              <h3 class="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
+              <h3 v-if="es" class="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
                 Contacta conmigo !
               </h3>
-              <p class="open-sans-font mb-4">
+              <h3 v-if="en" class="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
+                Keep in touch !
+              </h3>
+              <p v-if="es" class="open-sans-font mb-4">
                 Puedes encontrarme a través de los siguientes medios. Siempre
                 estoy abierto a discutir sobre nuevos proyectos, ideas u
                 oportunidades.
               </p>
-              <AddressInfo />
+              <p v-if="en" class="open-sans-font mb-4">
+                You can find me through the following channels. I am always open to discussing new projects, ideas, or opportunities.
+              </p>
+              <AddressInfo :spanish="spanish" :english="english" :key="languageKey" />
               <!-- {/* End Address */} -->
 
-              <SocialInfo />
+              <SocialInfo :spanish="spanish" :english="english" :key="languageKey" />
               <!-- {/* End Social */} -->
             </div>
             <!-- {/* Left Side Ends */} -->
 
             <!-- {/* Contact Form Starts */} -->
             <div class="col-12 col-lg-8">
-              <ContactInfo />
+              <ContactInfo :spanish="spanish" :english="english" :key="languageKey" />
             </div>
             <!-- {/* Contact Form Ends */} -->
           </div>
@@ -131,7 +171,8 @@
 
       <div class="tab-pane fade blog" id="blog">
         <div class="title-section text-left text-sm-center">
-          <h1>mi <span>blog</span></h1>
+          <h1 v-if="es">mi <span>blog</span></h1>
+          <h1 v-if="en">my <span>blog</span></h1>
           <span class="title-bg">posts</span>
         </div>
         <div class="container">
@@ -159,8 +200,8 @@ import PortfolioInfo from "@/components/portfolio/PortfolioInfo.vue";
 export default {
   name: "HomeLight",
   meta: {
-      title: "Nacho Rodríguez || Portfolio",
-    },
+    title: "Nacho Rodríguez || Portfolio",
+  },
   components: {
     HeroBanner,
     IndexMain,
@@ -170,11 +211,47 @@ export default {
     //BlogInfo,
     PortfolioInfo,
   },
+  props: {
+    spanish: Boolean,
+    english: Boolean,
+  },
   data() {
-    return {};
+    return {
+      es: this.spanish,
+      en: this.english,
+      languageKey: 0,
+      spLanguage: null,
+      enLanguage: null,
+    };
+  },
+  methods: {
+    toSpanish() {
+      this.es = true;
+      this.en = false;
+      this.spLanguage = "Cambiar a español";
+      this.enLanguage = "Cambiar a inglés";
+      this.languageKey += 1;
+      this.$emit("language-changed", { es: this.es, en: this.en });
+    },
+    toEnglish() {
+      this.es = false;
+      this.en = true;
+      this.spLanguage = "Change to spanish";
+      this.enLanguage = "Change to english";
+      this.languageKey += 1;
+      this.$emit("language-changed", { es: this.es, en: this.en });
+    },
   },
   mounted() {
     document.body.classList.add("light");
+    if (this.es) {
+      this.spLanguage = "Cambiar a español";
+      this.enLanguage = "Cambiar a inglés";
+    }
+    if (this.en) {
+      this.spLanguage = "Change to spanish";
+      this.enLanguage = "Change to english";
+    }
   },
   unmounted() {
     document.body.classList.remove("dark");
