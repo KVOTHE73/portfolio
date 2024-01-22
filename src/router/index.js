@@ -26,15 +26,7 @@ const routes = [
       title: "Nacho Rodríguez || Portfolio",
     },
     component: () => import("../views/HomeLight.vue")    
-  },
-  {
-    path: "/contact",
-    component: () => import("@/components/portfolio/ContactForm.vue"),
-    name: "ContactForm",
-    meta: {
-      title: "Nacho Rodríguez || Portfolio",
-    },
-  },
+  },  
   // header para linkeding y el cv en pdf
   {
     path: "/linkedin",

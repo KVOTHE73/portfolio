@@ -171,15 +171,15 @@
 
       <div class="tab-pane fade blog" id="blog">
         <div class="title-section text-left text-sm-center">
-          <h1 v-if="es">mi <span>blog</span></h1>
-          <h1 v-if="en">my <span>blog</span></h1>
+          <h1 v-if="es"><span>blog</span></h1>
+          <h1 v-if="en"><span>blog</span></h1>
           <span class="title-bg">posts</span>
         </div>
         <div class="container">
           <!-- {/* Articles Starts */} -->
-          <!-- <div class="row pb-50">
-            <BlogInfo />
-          </div> -->
+          <div class="row pb-50">
+            <BlogInfo :spanish="spanish" :english="english" :key="languageKey" />
+          </div>
           <!-- {/* Articles Ends */} -->
         </div>
       </div>
@@ -194,7 +194,7 @@ import IndexMain from "@/components/about/IndexMain.vue";
 import AddressInfo from "@/components/AddressInfo.vue";
 import ContactInfo from "@/components/ContactInfo.vue";
 import SocialInfo from "@/components/SocialInfo.vue";
-//import BlogInfo from "@/components/blog/BlogInfo.vue";
+import BlogInfo from "@/components/blog/BlogInfo.vue";
 import PortfolioInfo from "@/components/portfolio/PortfolioInfo.vue";
 
 export default {
@@ -208,7 +208,7 @@ export default {
     AddressInfo,
     ContactInfo,
     SocialInfo,
-    //BlogInfo,
+    BlogInfo,
     PortfolioInfo,
   },
   props: {

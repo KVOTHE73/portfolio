@@ -168,14 +168,14 @@
 
       <div class="tab-pane fade blog" id="blog">
         <div class="title-section text-left text-sm-center">
-          <h1 v-if="es">mi <span>blog</span></h1>
-          <h1 v-if="en">my <span>blog</span></h1>
+          <h1 v-if="es"><span>blog</span></h1>
+          <h1 v-if="en"><span>blog</span></h1>
           <span class="title-bg">posts</span>
         </div>
         <div class="container">
           <!-- {/* Articles Starts */} -->
           <div class="row pb-50">
-            <BlogInfo />
+            <BlogInfo :spanish="spanish" :english="english" :key="languageKey" />
           </div>
           <!-- {/* Articles Ends */} -->
         </div>

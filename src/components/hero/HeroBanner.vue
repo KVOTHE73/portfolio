@@ -80,7 +80,7 @@ export default {
       en: this.english,
       heroContent: {
         heroImage: require(`@/assets/images/hero/nacho_746X1020.jpeg`),
-        heroMobileImage: require(`@/assets/images/hero/nacho_300x300.jpeg`),
+        heroMobileImage: require(`@/assets/images/hero/nacho2_300x300.jpg`),
         heroTitleName: "nacho rodríguez",
         heroDesignationEsp: "desarrollador web",
         heroDesignationEng: "web developer",
