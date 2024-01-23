@@ -446,6 +446,18 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   color: #ffffff;
   border-radius: 50%;
 }
+/* More info button hidden on mobile devices */
+#BtnMoreInfo {
+  @media (max-width: 991px) {
+  display: none;
+  }
+}
+/* menu buttons go down on ipads */
+#BtnsMenu {
+@media(min-width: 991px) and (max-width: 1600px) {
+  margin-top: 3rem !important;
+  }
+}
 
 /*** Page Title ***/
 

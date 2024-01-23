@@ -6,9 +6,9 @@ export default {
           id: 1,
           img: require(`@/assets/images/blog/1579270413-soft-skills.png`),
           title: "La importancia de las soft-skills o habilidades blandas",
-          commentor: "Santhan ",
-          date: "14 January 2022",
-          tag: `wordpress, business, economy, design`,
+          commentor: "Nacho Rodríguez",
+          date: "14 Enero 2024",
+          tag: `habilidades blandas, soft-skills, comunicación`,
           description1:
             "Una queja frecuente en la actualidad es que las personas carecen de las habilidades necesarias para ocupar las vacantes laborales disponibles. A menudo, esas quejas se centran en la falta de habilidades técnicas. Sin embargo, las habilidades blandas son cada vez más importantes. Lo que puedes hacer a menudo es menos importante que la forma en que lo haces. Sin embargo, entre todas las habilidades blandas, una destaca por encima del resto: la comunicación.",
           description2:
@@ -17,7 +17,7 @@ export default {
             "La importancia de las habilidades blandas o soft-skills",
           description4:
             "La profesión médica ha sabido durante mucho tiempo que las habilidades blandas son casi tan importantes como las habilidades técnicas. La periodista de salud Patricia Chaney (@TRCWriter) explica: 'La empatía de todos los profesionales médicos es una parte crucial de la recuperación de sus pacientes. No solo afecta cómo se sienten los pacientes en el hospital, sino también cuánto aprenden sobre el cuidado de sí mismos en casa. Este elemento importante abarca todos los aspectos de la interacción con un paciente y su familiar, no solo lo que se dice, sino cómo se expresa'. Lindzon explica que la necesidad de habilidades interpersonales ahora se reconoce mucho más allá de los campos tradicionales donde estas habilidades han sido apreciadas durante mucho tiempo. Él escribe: 'Si bien la demanda de candidatos con habilidades de comunicación sólidas solía ser específica de industrias y roles orientados al público o al cliente, como comunicaciones corporativas o ventas, ahora hay un creciente reconocimiento de la importancia de las habilidades de comunicación en casi cualquier entorno corporativo'.",
-          description5: "Los analistas de McKinsey & Company señalan: 'Acompañando a la adopción de tecnologías avanzadas en el lugar de trabajo, aumentará la necesidad de trabajadores con habilidades sociales y emocionales afinadas, habilidades que las máquinas están lejos de dominar... Mientras que algunas de estas habilidades, como la empatía, son innatas, otras, como la comunicación avanzada, se pueden perfeccionar y enseñar'. Nadia Chen, Directora de Compromiso de Talento en Kurrant Talent, agrega: 'La automatización y la inteligencia artificial resultarán en una mayor proporción de trabajos que dependen de habilidades blandas, pero su importancia a menudo se subestima en el lugar de trabajo'. Ella insiste: 'La demanda de habilidades blandas ya supera la oferta en hasta un 45 por ciento'. Y señala: 'Un estudio de Deloitte estima que dos tercios de todos los trabajos para 2030 dependerán de habilidades blandas.",
+          description5: "Los analistas de McKinsey & Company señalan: 'Acompañando a la adopción de tecnologías avanzadas en el lugar de trabajo, aumentará la necesidad de trabajadores con habilidades sociales y emocionales afinadas, habilidades que las máquinas están lejos de dominar... Mientras que algunas de estas habilidades, como la empatía, son innatas, otras, como la comunicación avanzada, se pueden perfeccionar y enseñar'. Nadia Chen, Directora de Compromiso de Talento en Kurrant Talent, agrega: 'La automatización y la inteligencia artificial resultarán en una mayor proporción de trabajos que dependen de habilidades blandas, pero su importancia a menudo se subestima en el lugar de trabajo'. Ella insiste: 'La demanda de habilidades blandas ya supera la oferta en hasta un 45 por ciento'. Y señala: 'Un estudio de Deloitte estima que dos tercios de todos los trabajos para 2030 dependerán de habilidades blandas.'",
           description6:  "Las habilidades blandas más importantes",
           description7: "Como señaló Lindzon, la comunicación es actualmente la habilidad blanda más deseada por los empleadores; sin embargo, no es la única habilidad con una gran demanda. Jay Wright, Editor de Desarrollo en WikiJob, me indicó la lista de las diez principales habilidades blandas de WikiJob. No sorprendentemente, la comunicación encabeza la lista de WikiJob:",
           description8: "1. Comunicación: Dan Brodnitz, jefe de estrategia de contenido para LinkedIn Learning, le dijo a Lindzon: 'La comunicación es fundamental para cómo interactúan las personas y, por lo tanto, es fundamental para cómo las personas hacen negocios de manera efectiva. Cualquier cosa que involucre a más de una persona depende de la comunicación'. El equipo de WikiJob agrega: 'Los comunicadores habilidosos pueden ajustar su tono y estilo según su audiencia, comprender y actuar eficientemente según las instrucciones y explicar problemas complejos tanto a colegas como a clientes. Una habilidad de comunicación clave, a menudo olvidada, es la escucha.'",
@@ -38,7 +38,7 @@ export default {
           img: require(`@/assets/images/blog/vuecover-1200x735.jpg`),
           title: "Mejores tecnologías para desarrollo front-end",
           commentor: "Nacho Rodríguez",
-          date: "23 Octubre 2023",
+          date: "05 Diciembre 2023",
           tag: `frontend, techs, HTML, CSS, JavaScript, TypeScript, Vue`,
           description1:
             "Para empezar, recuerda que hay una estricta división entre el desarrollo del frontend y el backend para las aplicaciones web. Las tecnologías de backend están relacionadas con el lado del servidor de las aplicaciones. A su vez, el frontend se relaciona con el navegador y las interfaces/interacciones del usuario. Aunque ambos lados contribuyen de manera igual al éxito del proyecto, este artículo se centrará en las mejores opciones de frontend para tu proyecto.",
@@ -47,12 +47,12 @@ export default {
           description3:
             "A menudo, las tecnologías “Top” se equiparan con las herramientas más “recientes”.",
           description4:
-            "Las herramientas más recientes pueden carecer de un soporte adecuado, integración o documentación, y es importante tener en cuenta la popularidad y el éxito de una tecnología, como se ve en los casos de CSS y HTML, que, a pesar de no ser 'nuevos' o 'emergentes', siguen siendo fundamentales para el desarrollo frontend.",
+            "Las herramientas más recientes pueden carecer de un soporte adecuado, integración o documentación, y es importante tener en cuenta la popularidad y el éxito de una tecnología, como se ve en los casos de CSS y HTML, que, a pesar de no ser “nuevos” o “emergentes”, siguen siendo fundamentales para el desarrollo frontend.",
           description5:
             "Esta publicación de blog presenta una mezcla de tecnologías bien establecidas, emergentes y de moda para ofrecer una visión integral del mercado actual.",
           description6: "1. HTML (HyperText Markup Language)",
           description7:
-            "Comencemos con lo básico: HTML es la base del desarrollo frontend y su importancia es poco probable que disminuya en el corto plazo. Esta tecnología te permite crear la estructura o 'markup' de tu sitio web. Aunque no ofrece la interfaz de usuario más dinámica, los elementos HTML te proporcionan herramientas básicas para agregar botones, formularios, contenedores y otras características a la página web.",
+            "Comencemos con lo básico: HTML es la base del desarrollo frontend y su importancia es poco probable que disminuya en el corto plazo. Esta tecnología te permite crear la estructura o “markup” de tu sitio web. Aunque no ofrece la interfaz de usuario más dinámica, los elementos HTML te proporcionan herramientas básicas para agregar botones, formularios, contenedores y otras características a la página web.",
           description8: "2. CSS (Cascading Style Sheets)",
           description9:
             "Otra tecnología fundamental para el frontend es CSS, que te permite agregar reglas de estilo adicionales a la estructura HTML que has creado, asegurando que tu aplicación web sea receptiva y visualmente atractiva con animaciones llamativas que la hacen interactiva y funcionan sin problemas en cualquier tamaño de pantalla o dispositivo.",
@@ -82,7 +82,7 @@ export default {
             "¿Cuál es la diferencia entre el front end y back end en el desarrollo de aplicaciones?",
           commentor: "Nacho Rodríguez",
           date: "23 October 2023",
-          tag: `frontend, backend, technologias, DOM, interfaz`,
+          tag: `frontend, backend, tecnologías, DOM, interfaz`,
           description1:
             "Tanto el front end como el back end son aspectos críticos de cualquier aplicación. El front end es aquello que ven los usuarios e incluye elementos visuales, como botones, casillas de verificación, gráficos y mensajes de texto. Permite a los usuarios interactuar con la aplicación. El back-end son los datos y la infraestructura que permiten que la aplicación funcione. Almacena y procesa los datos de las aplicaciones para los usuarios.",
           description2:
@@ -95,9 +95,9 @@ export default {
           description6:
             "1. El lenguaje de marcado HTML define la estructura del front end y los diferentes elementos del DOM",
           description7:
-            "2. Las hojas de estilo en cascada (CSS) definen el estilo de una aplicación web, incluido el diseño, las fuentes, los colores y el estilo visual",
+            "2. Las hojas de estilo en cascada (CSS) definen el estilo de una aplicación web, incluido el diseño, las fuentes, los colores y el estilo visual.",
           description8:
-            "3. JavaScript agrega una capa de funcionalidad dinámica mediante la manipulación del DOM",
+            "3. JavaScript agrega una capa de funcionalidad dinámica mediante la manipulación del DOM.",
           description9:
             "JavaScript puede activar cambios en una página y mostrar información nueva. Esto significa que el front end puede gestionar las interacciones (o solicitudes) fundamentales de los usuarios, como mostrar un calendario o comprobar si el usuario ha ingresado una dirección de correo electrónico válida. El front end transmite las solicitudes más complejas al back end.",
           description10: "¿Cómo funciona el backend de una aplicación?",
@@ -118,88 +118,61 @@ export default {
       blogsEng: [
         {
           id: 1,
-          img: require(`@/assets/images/blog/vuecover-1200x735.jpg`),
-          title: "Best frontend technologies",
+          img: require(`@/assets/images/blog/1579270413-soft-skills.png`),
+          title: "The importance of soft skills",
           commentor: "Nacho Rodríguez",
-          date: "23 October 2023",
-          tag: `frontend, techs, HTML, CSS, JavaScript, TypeScript, Vue`,
+          date: "14 January 2024",
+          tag: `Soft skills, communication, article, leadership`,
           description1:
-            "An oft-heard lament nowadays is that people lack the skills to fill available job openings. Most often, those laments are about the lack of hard skills. However, companies are quickly learning that soft skills are becoming increasingly important. Even workers with hard skills can benefit from burnishing their soft skills. Tech writer Angus Loten (@angusloten) notes, “The surge in remote working and the rapid expansion of digital-business tools driven by the coronavirus pandemic are prompting employers to add a new qualification to enterprise-technology job postings: people skills.”[1] With the Delta variant raging and the Mu variant waiting in the wings, this situation is unlikely to change in the near-term. “In today’s job market,” Freelance journalist Jared Lindzon (@JLindzon) asserts, “what you can do is often less important than how you do it.”[2] Elaborating, Lindzon writes, “Employers may only hire candidates who meet the minimum requirements for technical competencies, but there is a growing appetite for candidates who can demonstrate more advanced soft skills, as those are often harder to teach. Among all the soft skills employers are seeking, however, one stands far above the rest in terms of employer demand.” That skill is communication.",
-          description2:
-            "Vue is considered one of the best frontend framework options for single-page web applications, and is a JavaScript framework designed for creating user interfaces that provides a declarative and component-based programming experience, similar to React and Angular, with millions of weekly downloads on npm, demonstrating its popularity in the market.",
+            "A common complaint nowadays is that people lack the necessary skills to fill available job positions. Often, these complaints focus on the lack of technical skills. However, soft skills are becoming increasingly important. What you can do is often less important than how you do it. Among all soft skills, one stands out above the rest: communication.",
+            description2:
+            "Communication is fundamental to how people interact, and therefore, it is crucial to how people conduct business effectively. Anything that involves more than one person depends on communication.",
           description3:
-            "The Importance of Soft Skills",
+            "The importance of soft skills",
           description4:
-            "The medical profession has known for a long time that soft skills are nearly as important as hard skills. Healthcare journalist Patricia Chaney (@TRCWriter) explains, “Bedside manner among all medical professionals is a crucial part of their patients’ recovery. Not only does it affect how patients feel in the hospital, but also how much they learn about caring for themselves at home. This important element encompasses every aspect of one’s interaction with a patient and his or her family member — not only what is said, but how it’s expressed.”[3] Lindzon explains that the need for people skills is now being recognized far beyond traditional fields where such skills have long been appreciated. He writes, “While demand for candidates with strong communication skills was once specific to industries and roles that were public- or customer-facing — such as corporate communications or sales — there is now a growing recognition of the importance of communication skills in almost any corporate setting.",
-          description5:
-            "Analysts from McKinsey & Company note, “Accompanying the adoption of advanced technologies into the workplace will be an increase in the need for workers with finely tuned social and emotional skills — skills that machines are a long way from mastering. … While some of these skills, such as empathy, are innate, others, such as advanced communication, can be honed and taught.”[4] Nadia Chen, Talent Engagement Director at Kurrant Talent, adds, “Automation and artificial intelligence will result in a greater proportion of jobs relying on soft skills but their importance is often undervalued in the workplace.”[5] She insists, “Demand for soft skills already exceeds supply by up to 45 per cent.” And she notes, “A study by Deloitte estimates that two-thirds of all jobs by 2030 will depend on soft skills.”",
-          description6: "The Most Important Soft Skills",
-          description7:
-            "As Lindzon noted, communication is currently the most desired soft skill being sought by employers; however, it’s not the only skill in high demand. Jay Wright, Developmental Editor at WikiJob, pointed me to WikiJob’s top ten list of soft skills.[6] Not surprisingly, communication tops the WikiJob list:",
-          description8: "1. Communication: Dan Brodnitz, head of content strategy for LinkedIn Learning, told Lindzon, “Communication is core to how people interact, and therefore it’s core to how people do business effectively. Anything that involves more than one person depends on communications.” The WikiJob team adds, “Able communicators can adjust their tone and style according to their audience, comprehend and act efficiently on instructions, and explain complex issues to colleagues and clients alike. A key, often forgotten, communication skill is listening.”",
-          description9:
-            "2. Self-Motivation. With remote and hybrid work on the rise, self-motivation is essential. The WikiJob’s team notes, “Having a positive attitude and the initiative to work well without around-the-clock supervision is a vital soft skill for any employee.”",
-          description10: "3. JavaScript",
-          description11:
-            "3. Leadership. Great leadership requires a person to hone all of the soft skills. The WikiJob’s team stresses, “Those with strong leadership skills will have the ability to inspire others and lead teams to success. This is why it is a particularly sought-after skill.”",
-          description12: "4. Responsibility. Responsibility is a traveling companion of self-motivation. According to the WikiJob’s team, a responsible person embraces the following qualities: Trustworthiness; discipline; motivation; conscientiousness; accountability; resilience; and adaptability.",
-          description13:
-            "5. Teamwork. Most successful businesses require teamwork. Headhunter Martha Heller, Chief Executive Officer of Heller Search Associates, told Loten, “The brilliant, introverted developer continues to be in high demand, but we are also seeing an uptick in requirements for relationship building, business acumen and communications in our searches.” At some point, even introverts need to work with others. That’s why teambuilding exercises continue to be a staple in the business world.",
-          description14:
-            "6. Problem Solving. Frankly, I’m surprised problem solving is so low on the list. A survey conducted by McKinsey & Company back in 2018 found that problem solving, critical thinking, innovation, and creativity were the top skills desired by employers. The next most desirable skillset involved the ability to deal with complexity and ambiguity.",
-          description15:
-            "7. Decisiveness. The WikiJob’s team notes, “Decisiveness is characterized by the ability to make quick and effective decisions. It does not mean recklessness or impulsiveness.” According to Chen, decisiveness could also include “cognitive flexibility, business empathy, perspective-taking or focus, and self-control, which is sometime seen as missing among millennials.”",
-          description16: "5. Vue",
-          description17:
-            "8. Ability to Work Under Pressure and Time Management. The WikiJob’s team writes, “Many jobs come with demanding deadlines and, sometimes, high stakes. Recruiters prize candidates who show a decisive attitude, an unfaltering ability to think clearly, and a capacity to compartmentalize and set stress aside.” Setting stress aside, however, can be difficult. Lynda Gratton (@lyndagratton), a professor of management practice at London Business School, explains, “It turns out that the development and use of soft skills such as empathy and creativity are highly sensitive to how a person is feeling. Studies show that when people feel under pressure, like they’re being treated unfairly, or otherwise feel under stress, the hippocampus — the part of the brain’s limbic system that is associated with emotion — is much less able to engage in empathic listening or appreciating the context of a situation. The brain, in a sense, closes down to learning or performing soft skills. The challenge is that many workplaces have practices and processes that, often unintentionally, result in high levels of stress. Moreover, the antidotes — such as more flexible working conditions, collaborative cultures, the institution of fair processes — are not adopted quickly.”[8] In other words, companies can unintentionally undermine the development of the soft skills they desire to foster in their employees.",
-          description18:
-            "9. Flexibility. Charles Darwin’s theory of evolution asserts that the species best able to adapt to changing circumstances have the best chances of survival. In today’s ever-changing business world, agile companies have the best chance of survival. Agile companies, however, depend on having flexible employees. The WikiJob’s team notes, “Flexibility is an important soft skill, since it demonstrates an ability and willingness to embrace new tasks and new challenges calmly and without fuss. Flexible employees are willing to help out where needed, take on extra responsibilities and can adapt quickly when plans change.”",
-          description20: "10. Negotiation and Conflict Resolution. Conflict within an organization can create a toxic environment. That’s why a person who can deal with conflict is so valuable. The WikiJob’s team explains, “To be an adept negotiator is to know how to be persuasive and exert influence, while sensitively seeking a solution which will benefit all parties. Similarly, conflict resolution depends on strong interpersonal skills and the ability to establish a rapport with colleagues and clients alike.”",
-          description21: "Concluding Thoughts",
-          description22: "Chen concludes, “Unlike hard skills that are learned, soft skills are similar to emotions or insights and allow people to interact intelligently with others. You don’t learn them in a typical classroom setting and they are much tougher to evaluate and measure.” Gratton agrees we have a lot to learn about how to teach people the soft skills they will need to succeed in the years ahead. She writes, “The World Economic Forum report on future skills argued, it is human ‘soft skills’ that will become increasingly valuable — skills such as empathy, context sensing, collaboration, and creative thinking. That means that millions of people across the world will have to make the transition toward becoming a great deal better versed in these soft skills. But that’s far from easy. The paradox is that while we understand a lot about how to develop the ‘hard skills’ of analysis, decision-making, and analytical judgment, we know a great deal less about the genesis of soft skills.” That’s why, when an employer finds a person blessed with these soft skills, they are considered a business treasure; and, that’s why soft skills are so important for hard times."
+            "The medical profession has long known that soft skills are nearly as important as technical skills. Health journalist Patricia Chaney (@TRCWriter) explains, 'The empathy of all medical professionals is a crucial part of the recovery of their patients. It not only affects how patients feel in the hospital but also how much they learn about self-care at home. This crucial element encompasses every aspect of the interaction with a patient and their family, not just what is said but how it is expressed.' Lindzon explains that the need for interpersonal skills is now recognized far beyond traditional fields where these skills have long been appreciated. He writes, 'While the demand for candidates with strong communication skills used to be specific to industries and roles that were public- or customer-facing, such as corporate communications or sales, there is now a growing recognition of the importance of communication skills in almost any corporate setting.'",
+          description5: "Analysts from McKinsey & Company note, 'Accompanying the adoption of advanced technologies into the workplace will be an increase in the need for workers with finely tuned social and emotional skills — skills that machines are a long way from mastering... While some of these skills, such as empathy, are innate, others, like advanced communication, can be honed and taught.' Nadia Chen, Talent Engagement Director at Kurrant Talent, adds, 'Automation and artificial intelligence will result in a greater proportion of jobs relying on soft skills, but their importance is often undervalued in the workplace.' She insists, 'Demand for soft skills already exceeds supply by up to 45 percent.' And she notes, 'A study by Deloitte estimates that two-thirds of all jobs by 2030 will depend on soft skills.'",
+          description6:  "The most important soft skills",
+          description7: "As Lindzon pointed out, communication is currently the most desired soft skill by employers; however, it's not the only skill in high demand. Jay Wright, Developmental Editor at WikiJob, pointed me to WikiJob's top ten soft skills list. Not surprisingly, communication tops the WikiJob list:",
+          description8: "1. Communication: Dan Brodnitz, Head of Content Strategy for LinkedIn Learning, told Lindzon, 'Communication is fundamental to how people interact, and therefore, it is crucial to how people conduct business effectively. Anything that involves more than one person depends on communication.' The WikiJob team adds, 'Able communicators can adjust their tone and style according to their audience, comprehend and act efficiently on instructions, and explain complex issues to colleagues and clients alike. A key, often forgotten, communication skill is listening.'",
+          description9: "2. Auto-motivation: With the rise of remote and hybrid work, self-motivation is essential. The WikiJob team notes, 'Having a positive attitude and the initiative to work well without around-the-clock supervision is a vital soft skill for any employee.'",
+          description10: "3. Leadership: Great leadership requires a person to hone all soft skills. The WikiJob team emphasizes, 'Those with strong leadership skills will have the ability to inspire others and lead teams to success. This is why it is a particularly sought-after skill.'",
+          description11: "4. Responsibility: Responsibility is a traveling companion of self-motivation. According to the WikiJob team, a responsible person embraces the following qualities: reliability; discipline; motivation; conscientiousness; accountability; resilience; and adaptability.",
+          description12: "5. Teamwork: Most successful businesses require teamwork. Headhunter Martha Heller, CEO of Heller Search Associates, told Loten, 'The brilliant, introverted developer continues to be in high demand, but we are also seeing an uptick in requirements for relationship building, business acumen, and communications in our searches.' At some point, even introverts need to work with others. That's why team-building exercises continue to be a staple in the business world.",
+          description13: "6. Problem Solving: Frankly, I'm surprised problem-solving is so low on the list. A survey conducted by McKinsey & Company back in 2018 found that problem solving, critical thinking, innovation, and creativity were the top skills desired by employers. The next most desirable skill set involved the ability to deal with complexity and ambiguity.",
+          description14: "7. Decision-Making: The WikiJob team notes, 'Decisiveness is characterized by the ability to make quick and effective decisions. It does not mean recklessness or impulsiveness.' According to Chen, decisiveness could also include 'cognitive flexibility, business empathy, perspective-taking, or focus, and self-control, which is sometimes seen as missing among millennials.'",
+          description15: "8. Ability to Work Under Pressure and Time Management: The WikiJob team writes, 'Many jobs come with demanding deadlines and, sometimes, high stakes. Recruiters prize candidates who show a decisive attitude, an unfaltering ability to think clearly, and a capacity to compartmentalize and set stress aside.' Setting stress aside, however, can be difficult. Lynda Gratton (@lyndagratton), a professor of management practice at London Business School, explains, 'It turns out that the development and use of soft skills such as empathy and creativity are highly sensitive to how a person is feeling. Studies show that when people feel under pressure, like they're being treated unfairly, or otherwise feel under stress, the hippocampus — the part of the brain's limbic system that is associated with emotion — is much less able to engage in empathic listening or appreciating the context of a situation. The brain, in a sense, closes down to learning or performing soft skills. The challenge is that many workplaces have practices and processes that, often unintentionally, result in high levels of stress. Moreover, the antidotes — such as more flexible working conditions, collaborative cultures, the institution of fair processes — are not adopted quickly.'",
+          description16: "9. Flexibility: Charles Darwin's theory of evolution asserts that the species best able to adapt to changing circumstances have the best chances of survival. In today's ever-changing business world, agile companies have the best chance of survival. Agile companies, however, depend on having flexible employees. The WikiJob team notes, 'Flexibility is an important soft skill, since it demonstrates an ability and willingness to embrace new tasks and new challenges calmly and without fuss. Flexible employees are willing to help out where needed, take on extra responsibilities, and can adapt quickly when plans change.'",
+          description17: "10. Negotiation and Conflict Resolution: Conflict within an organization can create a toxic environment. That's why a person who can deal with conflict is so valuable. The WikiJob team explains, 'To be an adept negotiator is to know how to be persuasive and exert influence, while sensitively seeking a solution which will benefit all parties. Similarly, conflict resolution depends on strong interpersonal skills and the ability to establish a rapport with colleagues and clients alike.'",
+          description18: "Concluding Thoughts:",
+          description20: "Chen concludes: 'Unlike hard skills that are learned, soft skills are similar to emotions or insights and allow people to interact intelligently with others. You don't learn them in a typical classroom setting and they are much tougher to evaluate and measure.' Gratton agrees we have a lot to learn about how to teach people the soft skills they will need to succeed in the years ahead. She writes, 'The World Economic Forum report on future skills argued, it is human 'soft skills' that will become increasingly valuable — skills such as empathy, context sensing, collaboration, and creative thinking. That means that millions of people across the world will have to make the transition toward becoming a great deal better versed in these soft skills. But that's far from easy. The paradox is that while we understand a lot about how to develop the 'hard skills' of analysis, decision-making, and analytical judgment, we know a great deal less about the genesis of soft skills.' That's why, when an employer finds a person blessed with these soft skills, they are considered a business treasure; and, that's why soft skills are so important for hard times."
         },
         {
           id: 2,
-          img: require(`@/assets/images/blog/1579270413-soft-skills.png`),
-          title: "Top 10 Toolkits for Deep Learning in 2022",
-          commentor: "Santhan ",
-          date: "14 January 2022",
-          tag: `wordpress, business, economy, design`,
-          description1:
-            "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          description2:
-            "If you’ve been waiting for an invitation, this calligraphy is it. Commissioned by Notebook hand-lettered design for a poster. Quote is Notebook Building 8 VP’s Regina Dugan—and mine. ",
-          description3:
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
-          description4:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        },
-        {
-          id: 3,
-          img: require(`@/assets/images/blog/backend-vs-frontend2.png`),
-          title: "What are frontend and backend technologies?",
+          img: require(`@/assets/images/blog/vuecover-1200x735.jpg`),
+          title: "Best front-end development technologies",
           commentor: "Nacho Rodríguez",
-          date: "23 October 2023",
-          tag: `frontend, technologies, HTML, CSS, JavaScript, Vue`,
+          date: "05 December 2023",
+          tag: `frontend, techs, HTML, CSS, JavaScript, TypeScript, Vue`,
           description1:
-            "To begin with — remember that there is a strict division between frontend and backend for web page development.Backend technologies are related to the server side of the applications. In turn, frontend relates to the browser and user interfaces/interactions. While both sides contribute equally to the project’s success, this article will focus on the top frontend options for your project.",
+            "To begin with, remember that there is a strict division between frontend and backend development for web applications. Backend technologies are related to the server side of applications. In turn, frontend pertains to the browser and user interfaces/interactions. While both sides contribute equally to the project's success, this article will focus on the top frontend options for your project.",
           description2:
-            "Vue is considered one of the best frontend options for single-page web applications, and is a JavaScript framework designed for creating user interfaces that provides a declarative and component-based programming experience, similar to React and Angular, with millions of weekly downloads on npm, demonstrating its popularity in the market.",
+            "Vue is considered one of the best frontend framework options for single-page web applications and is a JavaScript framework designed for creating user interfaces that provides a declarative and component-based programming experience, similar to React and Angular. With millions of weekly downloads on npm, it demonstrates its popularity in the market.",
           description3:
-            "“Top” technologies are often equated with the “latest” tools.",
+            "Often, “Top” technologies are equated with the “latest” tools.",
           description4:
-            "The latest tools may lack proper support, integration, or documentation, and it's important to consider the popularity and success of a technology, as seen in the cases of CSS and HTML, which, despite not being “new” or “emerging”, remain fundamental to frontend development.",
+            "The latest tools may lack proper support, integration, or documentation, and it's important to consider the popularity and success of a technology, as seen in the cases of CSS and HTML. Despite not being “new” or “emerging”, they remain fundamental to frontend development.",
           description5:
             "This blog post presents a mix of well-established, emerging, and trendy technologies to provide a comprehensive overview of the current market.",
           description6: "1. HTML (HyperText Markup Language)",
           description7:
-            "Let's begin with the basics: HTML is the foundation of frontend development and its importance is unlikely to diminish anytime soon. This technology enables you to create the structure or 'markup' of your website, although it may not offer the most dynamic user interface, HTML elements provide you with basic tools to add buttons, forms, containers, and other features to web page.",
+            "Let's begin with the basics: HTML is the foundation of frontend development, and its importance is unlikely to diminish anytime soon. This technology enables you to create the structure or 'markup' of your website. Although it may not offer the most dynamic user interface, HTML elements provide you with basic tools to add buttons, forms, containers, and other features to a web page.",
           description8: "2. CSS (Cascading Style Sheets)",
           description9:
-            "Another core frontend technology, CSS allows you to add additional styling rules to the HTML structure you have created, ensuring that your web application is responsive and visually appealing with eye-catching animations that make it interactive and work seamlessly on any screen size or device.",
+            "Another core frontend technology, CSS, allows you to add additional styling rules to the HTML structure you have created, ensuring that your web application is responsive and visually appealing with eye-catching animations that make it interactive and work seamlessly on any screen size or device.",
           description10: "3. JavaScript",
           description11:
-            "JavaScript (JS) is a programming language that has always been and will continue to be one of the most important frontend technologies for web and mobile applications, allowing developers to dynamically modify the contents of both mobile and desktop apps and implement various features such as shopping carts, complex animations, tax calculators, web browser games, and more.",
+            "JavaScript (JS) is a programming language that has always been and will continue to be one of the most important frontend technologies for web and mobile applications. It allows developers to dynamically modify the contents of both mobile and desktop apps and implement various features such as shopping carts, complex animations, tax calculators, web browser games, and more.",
           description12: "4. TypeScript",
           description13:
             "Everyone with some frontend experience knows that JavaScript can be tricky and sometimes even dangerous when it comes to types. This is no longer the case with TypeScript.",
@@ -209,7 +182,50 @@ export default {
             "TypeScript throws an error anytime we make a mistake related to variable types, so we can make proper adjustments before we receive bug reports from customers.",
           description16: "5. Vue",
           description17:
-            "Vue is considered one of the best frontend options for single-page web applications, and is a JavaScript framework designed for creating user interfaces that provides a declarative and component-based programming experience, similar to React and Angular, with millions of weekly downloads on npm, demonstrating its popularity in the market.",
+            "Vue is considered one of the best frontend framework options for single-page web applications and is a JavaScript framework designed for creating user interfaces that provides a declarative and component-based programming experience, similar to React and Angular. With millions of weekly downloads on npm, it demonstrates its popularity in the market.",
+          description18:
+            "For more information on why to choose Vue for your web applications, I recommend reading the following ",
+          description19: "article.",
+          href1:
+            "https://taglineinfotech.com/why-vue-js-is-the-future-of-front-end-development/",
+        },        
+        {
+          id: 3,
+          img: require(`@/assets/images/blog/backend-vs-frontend2.png`),
+          title: "What is the difference between the front end and back end in application development?",
+          commentor: "Nacho Rodríguez",
+          date: "23 October 2023",
+          tag: `frontend, backend, technologies, DOM, interface`,
+          description1:
+            "Both the front end and the back end are critical aspects of any application. The front end is what users see and includes visual elements such as buttons, checkboxes, graphics, and text messages. It enables users to interact with the application. The back end is the data and infrastructure that make the application work. It stores and processes the data for the application behind the scenes, ensuring that everything functions seamlessly for users.",
+          description2:
+            "The front end can handle basic user interactions or requests, such as displaying a calendar or checking if the user has entered a valid email address. It forwards more complex requests to the back end.",
+          description3: "How does the frontend of an application work?",
+          description4:
+            "The term frontend refers to the graphical user interface (GUI) with which users can interact directly, such as navigation menus, design elements, buttons, images, and graphics. In technical terms, a page or screen that the user sees with various user interface components is called the Document Object Model (DOM).",
+          description5:
+            "There are three main computing languages that impact the way users interact with the frontend:",
+          description6:
+            "1. The markup language HTML defines the structure of the frontend and the various elements of the DOM.",
+          description7:
+            "2.The Cascading Style Sheets (CSS) define the style of a web application, including layout, fonts, colors, and visual styling.",
+          description8:
+            "3. JavaScript adds a layer of dynamic functionality through manipulation of the Document Object Model (DOM).",
+          description9:
+            "JavaScript can trigger changes on a page and display new information. This means that the front end can handle fundamental user interactions (or requests), such as displaying a calendar or checking if the user has entered a valid email address. More complex requests are transmitted to the back end.",
+          description10: "How does the backend of an application work?",
+          description11:
+            "Sometimes referred to as the server, the backend of the application manages the overall functionality of the web application. When the user interacts with the frontend, the interaction sends a request to the backend in HTTP format. The backend processes the request and returns a response.",
+          description12:
+            "When the backend processes a request, it typically interacts with the following elements:",
+          description13:
+            "Database servers to retrieve or modify relevant data.",
+          description14:
+            "Microservices that perform a subset of the tasks requested by the user.",
+          description15:
+            "Third-party APIs to gather additional information or perform additional functions.",
+          description16:
+            "The backend uses various communication protocols and technologies to fulfill a request. Additionally, it handles thousands of different requests simultaneously. The backend combines techniques of concurrency and parallelism, such as distributing requests across many servers, caching, and data duplication.",
         },
       ],      
     };

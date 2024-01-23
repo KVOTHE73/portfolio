@@ -184,7 +184,7 @@
           </div>
           <div class="entry-content open-sans-font">
             <p>
-              {{ item.description1.slice(0, 110) }}
+              {{ item.description1.slice(0, 1000) }}
             </p>
           </div>
         </div>
@@ -299,6 +299,15 @@
                       <a :href="blog.href1" target="_blank" rel="noreferrer">
                         {{ blog.description19 }}
                       </a>
+                    </p>
+                    <p>
+                      {{ blog.description20 }}
+                    </p>
+                    <p>
+                      {{ blog.description21 }}
+                    </p>
+                    <p>
+                      {{ blog.description22 }}
                     </p>
                   </div>
                   <!-- {/* Article Content Ends */} -->

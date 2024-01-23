@@ -27,7 +27,7 @@
     </div>
     <!-- End switcher -->
 
-    <header class="header">
+    <header id="BtnsMenu" class="header">
       <ul
         class="nav nav-tabs icon-menu d-lg-block revealator-slideup revealator-once revealator-delay1"
         id="myTab"
@@ -241,6 +241,13 @@ export default {
       this.languageKey += 1;
       this.$emit("language-changed", { es: this.es, en: this.en });
     },
+    handleBeforeUnload() {
+      // Puedes realizar acciones adicionales aquí antes de redirigir al usuario
+      // Por ejemplo, guardar datos o mostrar un mensaje de despedida
+
+      // Redirigir al usuario a una nueva página
+      this.$router.go(-1);
+    }
   },
   mounted() {
     document.body.classList.add("light");
@@ -255,6 +262,12 @@ export default {
   },
   unmounted() {
     document.body.classList.remove("dark");
+  },
+  created() {
+    window.addEventListener('beforeunload', this.handleBeforeUnload);
+  },
+  beforeUnmount() {
+    window.removeEventListener('beforeunload', this.handleBeforeUnload);
   },
 };
 </script>

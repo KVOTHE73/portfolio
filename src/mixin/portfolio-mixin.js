@@ -178,7 +178,7 @@ export default {
           clientEng:
             "AJP, Company dedicated to legal consulting in the field of occupational risk prevention.",
           language: "HTML, CSS, SASS, JavaScript, Vue.js",
-          preview: "AJP_JornadasPrevencionLaRioja",
+          preview: "AJP_JornadasPrevencionMurcia",
           previewLink: "https://www.jornadas-prl-insst.es/murcia",
           credentialsEsp: "No se requieren credenciales.",
           credentialsEng: "No credentials required",

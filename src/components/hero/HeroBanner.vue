@@ -21,6 +21,7 @@
         <p v-if="es" class="open-sans-font">{{ heroContent.heroDescriptionsEsp }}</p>
         <p v-if="en" class="open-sans-font">{{ heroContent.heroDescriptionsEng }}</p>
         <button
+          id="BtnMoreInfo"
           class="button"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
@@ -80,7 +81,7 @@ export default {
       en: this.english,
       heroContent: {
         heroImage: require(`@/assets/images/hero/nacho_746X1020.jpeg`),
-        heroMobileImage: require(`@/assets/images/hero/nacho2_300x300.jpg`),
+        heroMobileImage: require(`@/assets/images/hero/nacho_746X746.jpg`),
         heroTitleName: "nacho rodríguez",
         heroDesignationEsp: "desarrollador web",
         heroDesignationEng: "web developer",

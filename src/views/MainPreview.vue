@@ -43,7 +43,14 @@
               <div class="bg_container">
                 <router-link :to="preview.routerPath" rel="noreferrer">
                   <img
-                    :src="preview.img"
+                    v-if="es"
+                    :src="preview.imgEsp"
+                    alt="demo"
+                    class="img-responsive screenshot"
+                  />
+                  <img
+                    v-if="en"
+                    :src="preview.imgEng"
                     alt="demo"
                     class="img-responsive screenshot"
                   />
@@ -101,7 +108,6 @@
 </template>
 
 <script>
-
 export default {
   name: "MainPreview",
   meta: {
@@ -118,7 +124,8 @@ export default {
       previewDemo: [
         {
           id: 1,
-          img: require(`@/assets/images/intro/dark.jpg`),
+          imgEsp: require(`@/assets/images/intro/darkNachoEsp.jpg`),
+          imgEng: require(`@/assets/images/intro/darkNachoEng.jpg`),
           titleSpanish: "Portfolio fondo oscuro",
           titleEnglish: "Dark portfolio",
           routerPath: "/home-dark",
@@ -127,7 +134,8 @@ export default {
         },
         {
           id: 2,
-          img: require(`@/assets/images/intro/light.jpg`),
+          imgEsp: require(`@/assets/images/intro/lightNachoEsp.jpg`),
+          imgEng: require(`@/assets/images/intro/lightNachoEng.jpg`),
           titleSpanish: "Portfolio fondo claro",
           titleEnglish: "Light portfolio",
           routerPath: "/home-light",
@@ -152,7 +160,9 @@ export default {
   created() {
     // se busca el idioma del navegador del usurio
     function getUserBrowserLanguage() {
-      return navigator.language || navigator.userLanguage || navigator.languages;
+      return (
+        navigator.language || navigator.userLanguage || navigator.languages
+      );
       // mayoria de navegadores      IE: idioma del SO       soporte para HTML 5.1: "navigator.languages"
     }
     // se almacena el resultado
