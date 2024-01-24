@@ -125,7 +125,7 @@ export default {
     return {
       es: this.spanish,
       en: this.english,
-      imgMobile: require(`@/assets/images/hero/nacho_300x300.jpeg`),
+      imgMobile: require(`@/assets/images/hero/nacho_746X746.jpg`),
       //cv: require(`@/assets/images/cv.webp`),
     };
   },
