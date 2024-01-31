@@ -1,4 +1,4 @@
-# deski
+# Nacho Rodríguez
 
 ## Project setup
 ```
