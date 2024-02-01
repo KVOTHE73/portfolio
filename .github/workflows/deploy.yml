@@ -27,7 +27,7 @@ jobs:
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ secrets.SERVERFTP }}
+        server: ftp.perroagua.com
         username: ${{ secrets.USERNAMEFTP }}
         password: ${{ secrets.PASSWORDFTP }}       
         local-dir: dist/
