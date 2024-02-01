@@ -13,7 +13,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: latest
         
     - name: Install dependencies
       run: npm install
@@ -24,7 +24,7 @@ jobs:
     - name: FTP Deployer
       uses: sand4rt/ftp-deployer@v1.7
       with:
-          sftp: false # optional
+          sftp: true # optional
           host: ftp.perroagua.com # e.g. ftp.host.com or sftp.host.com (without ftp:// or ftps://)
           port: 21 # optional, default is: 21
           username: nacho@nacho-rodriguez.com
