@@ -27,8 +27,8 @@ jobs:
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ${{ secrets["ftp.nacho-rodriguez.com"] }}
-        username: ${{ secrets["nacho@nacho-rodriguez.com"] }}
-        password: ${{ secrets["73?KvOtHe_76P"] }}
+        server: ${{ secrets.SERVERFTP }}
+        username: ${{ secrets.USERNAMEFTP }}
+        password: ${{ secrets.PASSWORDFTP }}       
         local-dir: dist
         remote-dir: /home/perroagu/public_html/nacho-rodriguez.com
