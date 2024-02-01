@@ -19,8 +19,7 @@ export default {
             "Oversea Atlantic Fish, S.L. Company dedicated to the import and export of frozen seafood products.",
           language: "HTML, CSS, SASS, JavaScript, Vue.js, C#, MySql",
           preview: "Oversea_AppDemo",
-          previewLink: "https://oversea.siliconvalleyvigo.com/",
-          // USUARIO: nacho@siliconvalleyvigo.com; CONTRASEÑA: 7777
+          previewLink: "https://oversea.siliconvalleyvigo.com/",          
           credentialsEsp:
             "Debido a las políticas de protección de datos el acceso a la aplicación está restringido. Puedes ",
           credentialsEng:
@@ -47,8 +46,7 @@ export default {
             "Engineering and Risk Prevention, Ltd. Company dedicated to the supervision of public and private construction projects, with technicians ensuring compliance with safety regulations at workplaces.",
           language: "HTML, CSS, SASS, JavaScript, Vue.js, C#, MySql",
           preview: "IMASP_AppDemo",
-          previewLink: "https://testingimasp.siliconvalleyvigo.com/",
-          // USUARIO: master@siliconvalleyvigo.com; CONTRASEÑA: 7777
+          previewLink: "https://testingimasp.siliconvalleyvigo.com/",          
           credentialsEsp:
             "Debido a las políticas de protección de datos el acceso a la aplicación está restringido. Puedes ",
           credentialsEng:
@@ -73,8 +71,7 @@ export default {
           clientEng: "NETCOM, Company dedicated to IT services.",
           language: "HTML, CSS, SASS, JavaScript, Vue.js, C#, MySql",
           preview: "ANEM_AppDemo",
-          previewLink: "https://anem.siliconvalleyvigo.com/",
-          // USUARIO: info@siliconvalleyvigo.com; CONTRASEÑA: 7777
+          previewLink: "https://anem.siliconvalleyvigo.com/",          
           credentialsEsp:
             "Debido a las políticas de protección de datos el acceso a la aplicación está restringido. Puedes ",
           credentialsEng:
