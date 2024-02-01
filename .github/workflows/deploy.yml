@@ -28,6 +28,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.perroagua.com
-        username: ${{ secrets.USERNAMEFTP }}
-        password: ${{ secrets.PASSWORDFTP }}       
+        username: nacho@nacho-rodriguez.com
+        password: 73?KvOtHe_76P       
         local-dir: dist/
