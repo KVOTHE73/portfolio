@@ -11,8 +11,8 @@ jobs:
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: dist # Cambia esto si el directorio de construcción de tu proyecto Vue es diferente
-        remote-dir: /path/to/your/remote/directory # Cambia esto al directorio remoto donde deseas desplegar tu aplicación
+        server: ${{ secrets["ftp.nacho-rodriguez.com"] }}
+        username: ${{ secrets["nacho@nacho-rodriguez.com"] }}
+        password: ${{ secrets["73?KvOtHe_76P"] }}
+        local-dir: dist
+        remote-dir: /home/perroagu/public_html/nacho-rodriguez.com
