@@ -10,9 +10,4 @@ jobs:
     steps:
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.SERVERFTP }}
-        username: ${{ secrets.USERNAMEFTP }}
-        password: ${{ secrets.PASSWORDFTP }}   
-        local-dir: dist/
-        server-dir: /home/perroagu/public_html/nacho-rodriguez.com/
+     
