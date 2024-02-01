@@ -1,0 +1,18 @@
+name: ftp-deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Deploy to FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: dist # Cambia esto si el directorio de construcción de tu proyecto Vue es diferente
+        remote-dir: /path/to/your/remote/directory # Cambia esto al directorio remoto donde deseas desplegar tu aplicación
