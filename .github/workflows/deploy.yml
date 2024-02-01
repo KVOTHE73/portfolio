@@ -23,11 +23,18 @@ jobs:
       
     - name: Build Vue app
       run: npm run build
-
-    - name: Deploy to FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+            
+    - name: FTP Deployer
+      uses: sand4rt/ftp-deployer@v1.7
       with:
-        server: perroagua.com
-        username: nacho@nacho-rodriguez.com
-        password: 73?KvOtHe_76P       
-        local-dir: dist/
+          sftp: false # optional
+          host: ftp.perroagua.com # e.g. ftp.host.com or sftp.host.com (without ftp:// or ftps://)
+          port: 21 # optional, default is: 21
+          username: nacho@nacho-rodriguez.com
+          password: 73?KvOtHe_76P
+          remote_folder: ${{ secrets.FTP_REMOTE_FOLDER }} # optional, remote path of your FTP server
+          local_folder: dist # optional, local path, default is: dist
+          cleanup: false # optional, remove existing files inside FTP remote folder
+          include: '[]' # optional, e.g. '['dist']'
+          exclude: '[]' # optional, e.g. '['node_modules/**', '.git/**', '*.env']'
+          passive: true # optional
