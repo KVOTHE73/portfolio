@@ -27,7 +27,7 @@ jobs:
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.perroagua.com
+        server: ftp.perroagua.com/
         username: nacho@nacho-rodriguez.com
         password: 73?KvOtHe_76P       
         local-dir: dist/
