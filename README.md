@@ -21,4 +21,4 @@ npm run lint
 ```
 
 ### Configuración de Vue || Vue Customize configuration
-Consulta [Referencias de Configuración de Vue CLI](https://cli.vuejs.org/config/). || See [Vue CLI Configuration Reference](https://cli.vuejs.org/config/).
+Consulta [Referencias de Configuración de Vue CLI](https://cli.vuejs.org/config/). || See [Vue CLI Configuration Reference](https://cli.vuejs.org/config/)
