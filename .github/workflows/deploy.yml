@@ -1,0 +1,34 @@
+name: Deploy Portfolio
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Build Vue app
+      run: npm run build
+
+    - name: Deploy to FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ secrets.ftp.nacho/rodriguez.com }}
+        username: ${{ secrets.nacho@nacho-rodriguez.com }}
+        password: ${{ secrets.73?KvOtHe_76P }}
+        local-dir: dist
+        remote-dir: /home/perroagu/public_html/nacho-rodriguez.com
