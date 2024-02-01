@@ -60,7 +60,7 @@ export default {
       personalInfoContentEsp: [
         { id: 1, meta: "Nombre", metaInfo: "Nacho" },
         { id: 2, meta: "Apellidos", metaInfo: "Rodríguez Cuervo" },
-        { id: 3, meta: "Edad", metaInfo: "50 Años" },
+        { id: 3, meta: "Nacimiento", metaInfo: "23/10/1973" },
         { id: 4, meta: "Nacionalidad", metaInfo: "Española" },
         { id: 5, meta: "Freelance", metaInfo: "Disponible" },
         { id: 6, meta: "Dirección", metaInfo: "Vigo (PO), España" },
@@ -77,7 +77,7 @@ export default {
       personalInfoContentEng: [
         { id: 1, meta: "Name", metaInfo: "Nacho" },
         { id: 2, meta: "Surname", metaInfo: "Rodríguez Cuervo" },
-        { id: 3, meta: "Age", metaInfo: "50 Years old" },
+        { id: 3, meta: "Birth", metaInfo: "10/23/1973" },
         { id: 4, meta: "Country", metaInfo: "Spanish" },
         { id: 5, meta: "Freelance", metaInfo: "Available" },
         { id: 6, meta: "Address", metaInfo: "Vigo (PO), Spain" },
