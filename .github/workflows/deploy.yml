@@ -31,4 +31,4 @@ jobs:
         username: ${{ secrets.USERNAMEFTP }}
         password: ${{ secrets.PASSWORDFTP }}       
         local-dir: dist/
-        server-dir: /home/perroagu/public_html/nacho-rodriguez.com
+        server-dir: /home/perroagu/public_html/nacho-rodriguez.com/
