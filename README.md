@@ -1,4 +1,4 @@
-# Nacho Rodríguez || Portfolio
+# Nacho Rodríguez - Portfolio
 
 ## Set-up del proyecto || Project setup
 ```
