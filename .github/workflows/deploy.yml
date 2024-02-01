@@ -25,10 +25,10 @@ jobs:
       run: npm run build
 
     - name: Deploy to FTP
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.SERVERFTP }}
         username: ${{ secrets.USERNAMEFTP }}
         password: ${{ secrets.PASSWORDFTP }}       
         local-dir: dist/
-        remote-dir: /home/perroagu/public_html/nacho-rodriguez.com
+        server-dir: /home/perroagu/public_html/nacho-rodriguez.com
