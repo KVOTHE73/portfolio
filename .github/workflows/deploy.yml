@@ -11,7 +11,7 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2  # Esta línea clona el repositorio
+      uses: actions/checkout@v4  # Esta línea clona el repositorio
       with:
         fetch-depth: 0
         
