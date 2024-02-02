@@ -35,5 +35,5 @@ jobs:
       with:
         host: cp7053.webempresa.eu
         user: nacho@nacho-rodriguez.com
-        password: 73?KvOtHe_76P
+        password: KVOTHe1973
         localDir: "dist"
