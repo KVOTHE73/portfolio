@@ -11,17 +11,12 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4  # Esta línea clona el repositorio
+      uses: actions/checkout@v4  # Esta action clona el repositorio creando un runner automático que se usará para hacer el dist
       with:
         fetch-depth: 0
         
     - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: latest
-        
-    - name: List directory contents
-      run: ls -al
+      uses: actions/setup-node@v4 # Esta acción configura node      
         
     - name: Install dependencies
       run: npm install
@@ -30,7 +25,7 @@ jobs:
       run: npm run build
       
     - name: Upload ftp
-      uses: sebastianpopp/ftp-action@releases/v2
+      uses: sebastianpopp/ftp-action@releases/v2 # Esta acción sube los archivos al host por ftp
       
       with:
         host: ${{ secrets.SERVERFTP }}
