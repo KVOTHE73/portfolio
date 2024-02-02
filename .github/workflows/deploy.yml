@@ -25,7 +25,7 @@ jobs:
       uses: sand4rt/ftp-deployer@v1.7
       with:
           sftp: true # optional
-          host: ftp.perroagua.com # e.g. ftp.host.com or sftp.host.com (without ftp:// or ftps://)
+          host: sftp.perroagua.com # e.g. ftp.host.com or sftp.host.com (without ftp:// or ftps://)
           port: 21 # optional, default is: 21
           username: nacho@nacho-rodriguez.com
           password: 73?KvOtHe_76P
