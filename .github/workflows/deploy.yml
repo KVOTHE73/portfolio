@@ -20,13 +20,12 @@ jobs:
       
     - name: Build Vue app
       run: npm run build
-            
-    - name: FTP Deployer
-      uses: sand4rt/ftp-deployer@v1.7
+      
+    - uses: actions/checkout@v2
+    - name: Upload ftp
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
-          sftp: true # optional
-          host: sftp.perroagua.com # e.g. ftp.host.com or sftp.host.com (without ftp:// or ftps://)
-          port: 21 # optional, default is: 21
-          username: nacho@nacho-rodriguez.com
-          password: 73?KvOtHe_76P
-          local_folder: dist/ # optional, local path, default is: dist
+        host: ftp.perroagua.com
+        user: nacho@nacho-rodriguez.com
+        password: 73?KvOtHe_76P
+        localDir: "dist"
