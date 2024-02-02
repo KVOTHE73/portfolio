@@ -8,8 +8,13 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2  # Esta línea clona el repositorio
+      with:
+        fetch-depth: 0
+        
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
@@ -24,9 +29,6 @@ jobs:
     - name: Build Vue app
       run: npm run build
       
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
     - name: Upload ftp
       uses: sebastianpopp/ftp-action@releases/v2
       
