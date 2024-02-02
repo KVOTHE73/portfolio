@@ -33,7 +33,7 @@ jobs:
       uses: sebastianpopp/ftp-action@releases/v2
       
       with:
-        host: perroagua.com
-        user: nacho@perroagua.com
-        password: KVOTHe1973
+        host: ${{ secrets.SERVERFTP }}
+        user: ${{ secrets.USERNAMEFTP }}
+        password: ${{ secrets.PASSWORDFTP }}
         localDir: "dist"
