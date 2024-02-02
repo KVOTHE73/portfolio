@@ -29,4 +29,4 @@ jobs:
           port: 21 # optional, default is: 21
           username: nacho@nacho-rodriguez.com
           password: 73?KvOtHe_76P
-          local_folder: dist # optional, local path, default is: dist
+          local_folder: dist/ # optional, local path, default is: dist
