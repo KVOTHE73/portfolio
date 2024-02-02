@@ -33,7 +33,7 @@ jobs:
       uses: sebastianpopp/ftp-action@releases/v2
       
       with:
-        host: ftp.cp7053.webempresa.eu
+        host: cp7053.webempresa.eu
         user: nacho@nacho-rodriguez.com
         password: 73?KvOtHe_76P
         localDir: "dist"
