@@ -34,6 +34,6 @@ jobs:
       
       with:
         host: 178.33.156.24
-        user: nacho@nacho-rodriguez.com
+        user: nacho@perroagua.com
         password: KVOTHe1973
         localDir: "dist"
