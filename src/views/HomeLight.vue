@@ -250,6 +250,11 @@ export default {
     }
   },
   mounted() {
+    // Verifica si la URL tiene un fragmento de identificación y si corresponde a "contacto"
+    if (window.location.hash === "#contacto") {
+      // Activa la pestaña de contacto
+      document.getElementById("contacto").click(); // Simula un clic en el botón de contacto
+    }
     document.body.classList.add("light");
     if (this.es) {
       this.spLanguage = "Cambiar a español";
