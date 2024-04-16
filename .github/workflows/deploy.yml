@@ -11,7 +11,7 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4  # Esta action clona el repositorio creando un runner automático que se usará para hacer el dist
+      uses: actions/checkout@v4  # Esta acción clona el repositorio creando un runner automático que se usará para hacer el dist
       with:
         fetch-depth: 0
         
