@@ -59,7 +59,7 @@
         <!-- End icon-box -->
 
         <li class="icon-box" role="presentation">
-          <button data-bs-toggle="tab" data-bs-target="#contact">
+          <button data-bs-toggle="tab" data-bs-target="#contact" id="contacto">
             <i class="fa fa-envelope-open"></i>
             <h2 v-if="es">Contacto</h2>
             <h2 v-if="en">Contact</h2>
